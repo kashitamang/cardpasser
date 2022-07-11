@@ -38,7 +38,7 @@ export default function ExecutePassButton() {
 
   return (
     <div className='execute-button' onClick={() => passCard(selectedCard)}>
-        Pass <Card card={selectedCard} /> from {from} to {to}
+        Pass <Card card={selectedCard} cardLocation='button' /> from {from} to {to}
     </div>
   );
 }
